@@ -3,10 +3,9 @@
 # This should line up with the expectations from .eslintrc
 
 # Set the default behavior, in case people don't have core.autocrlf set.
-* text=auto
+* text=crlf
 
-# Declare files that will always have LF line endings on checkout (required for Unix-based build systems).
-*.ts text eol=lf
-*.tsx text eol=lf
-*.js text eol=lf
-*.jsx text eol=lf
+# Declare files that will always have CRLF line endings on checkout.
+*.ts text eol=crlf
+*.tsx text eol=crlf
+*.js text eol=crlf
