@@ -7,89 +7,60 @@
   --blur-xl: 1.5rem;
   --blur-2xl: 2.5rem;
   --blur-3xl: 4rem;
-
   --border-radius-none: 0;
   --border-radius-sm: 0.125rem;
-  --border-radius-default: 1.5rem; /* keep your existing default */
+  --border-radius-default: 1.5rem;
   --border-radius-md: 0.375rem;
   --border-radius-lg: 0.5rem;
   --border-radius-xl: 0.75rem;
   --border-radius-2xl: 1rem;
   --border-radius-3xl: 1.5rem;
   --border-radius-full: 624.9375rem;
-
   --border-width-0: 0;
   --border-width-1: 0.0625rem;
   --border-width-2: 0.125rem;
   --border-width-4: 0.25rem;
   --border-width-8: 0.5rem;
-
-  /* Core surfaces and text */
   --color-background: hsl(0, 0%, 100%);
-  --color-foreground: hsl(210, 15%, 15%); /* dark neutral body text */
-
-  --color-card: hsl(0, 0%, 100%); /* cards are white on site */
-  --color-card-foreground: hsl(210, 15%, 15%);
-
+  --color-foreground: hsl(15, 75%, 28%);
+  --color-card: hsl(15, 75%, 28%);
+  --color-card-foreground: hsl(0, 0%, 9.02%);
   --color-popover: hsl(0, 0%, 100%);
-  --color-popover-foreground: hsl(210, 15%, 15%);
-
-  /* Ziply primary green  #008601 */
-  --color-primary: #008601;
+  --color-popover-foreground: hsl(0, 0%, 9%);
+  --color-primary: hsl(15, 75%, 28%);
   --color-primary-foreground: hsl(0, 0%, 100%);
-  --color-primary-hover: hsl(120, 100%, 20%); /* slightly darker green */
-
-  /* Light gray bands and sections */
-  --color-secondary: hsl(0, 0%, 97%);
-  --color-secondary-foreground: hsl(210, 10%, 20%);
-  --color-secondary-hover: hsla(0, 0%, 97%, 0.9);
-
-  /* Muted / subtle UI */
-  --color-muted: hsl(0, 0%, 94%);
-  --color-muted-foreground: hsl(0, 0%, 55%);
-
-  /* Ziply blue  #016DE3 used as accent and links */
-  --color-accent: #016de3;
-  --color-accent-foreground: hsl(0, 0%, 100%);
-
+  --color-primary-hover: hsl(25, 95%, 53%);
+  --color-secondary: hsl(0, 0%, 96%);
+  --color-secondary-foreground: hsl(0, 0%, 32%);
+  --color-secondary-hover: hsl(0, 0%, 96%, 0.8);
+  --color-muted: hsl(0, 0%, 96%);
+  --color-muted-foreground: hsl(0, 0%, 64%);
+  --color-accent: hsl(21, 90%, 48%);
+  --color-accent-foreground: hsl(0, 0%, 9%);
   --color-destructive: hsl(0, 72%, 51%);
   --color-destructive-hover: hsl(0, 74%, 42%);
   --color-destructive-foreground: hsl(0, 0%, 100%);
-
-  /* Borders and inputs are light and unobtrusive */
-  --color-border: hsl(0, 0%, 85%);
-  --color-input: hsl(0, 0%, 85%);
-  --color-ring: #016de3; /* focus ring in Ziply blue */
-
-  /* Tertiary surfaces, often soft green-tinted backgrounds */
-  --color-tertiary: hsl(120, 40%, 96%); /* very pale green */
-  --color-tertiary-foreground: hsl(210, 15%, 15%);
-  --color-tertiary-hover: hsla(120, 40%, 96%, 0.9);
-
-  /* Dark sections like footer/header bars */
-  --color-dark: hsl(210, 24%, 12%);
-  --color-dark-foreground: hsl(0, 0%, 100%);
-  --color-dark-hover: hsla(210, 24%, 12%, 0.9);
-
-  /* Light variants */
-  --color-light: hsl(0, 0%, 100%);
-  --color-light-hover: hsla(0, 0%, 100%, 0.9);
-  --color-light-foreground: hsl(210, 15%, 15%);
-
-  /* Overlays for modals */
-  --color-overlay: hsla(210, 24%, 12%, 0.6);
-
+  --color-border: hsl(0, 0%, 83%);
+  --color-input: hsl(0, 0%, 83%);
+  --color-ring: hsl(221, 83%, 53%);
+  --color-tertiary-foreground: hsl(0, 0%, 32%);
+  --color-tertiary-hover: hsl(0, 0%, 96%, 0.8);
+  --color-tertiary: hsl(0, 0%, 96%);
+  --color-dark-foreground: hsl(0, 0%, 32%);
+  --color-dark-hover: hsl(0, 0%, 96%, 0.8);
+  --color-dark: hsl(0, 0%, 96%);
+  --color-light: hsl(0, 0%, 96%);
+  --color-light-hover: hsl(0, 0%, 96%, 0.8);
+  --color-light-foreground: hsl(240, 6%, 10%);
+  --color-overlay: hsl(0, 0%, 96%, 0.8);
   --disabled: [object Object];
-
   --figma-automations-logo: Brand A;
   --figma-automations-hero: Hero 1;
   --figma-automations-navigation: Style 1;
   --figma-automations-multipromo: Multi 1;
-
   --font-family-heading: Figtree;
   --font-family-body: Figtree;
   --font-family-accent: Helvetica;
-
   --font-size-xs: 12px;
   --font-size-sm: 14px;
   --font-size-base: 16px;
@@ -103,10 +74,8 @@
   --font-size-7xl: 72px;
   --font-size-8xl: 96px;
   --font-size-9xl: 128px;
-
   --font-style-italic: italic;
   --font-style-not-italic: normal;
-
   --font-weight-thin: 100;
   --font-weight-extralight: 200;
   --font-weight-light: 300;
@@ -116,7 +85,6 @@
   --font-weight-bold: 700;
   --font-weight-extrabold: 800;
   --font-weight-black: 900;
-
   --height-0: 0;
   --height-1: 0.25rem;
   --height-2: 0.5rem;
@@ -152,14 +120,12 @@
   --height-2-5: 0.625rem;
   --height-3-5: 0.875rem;
   --height-px: 0.0625rem;
-
   --letter-spacing-tighter: -0.05rem;
   --letter-spacing-tight: -0.025rem;
   --letter-spacing-normal: 0;
   --letter-spacing-wide: 0.025rem;
   --letter-spacing-wider: 0.05rem;
   --letter-spacing-widest: 0.1rem;
-
   --line-height-3: 0.75rem;
   --line-height-4: 1rem;
   --line-height-5: 1.25rem;
@@ -169,10 +135,8 @@
   --line-height-9: 2.25rem;
   --line-height-10: 2.5rem;
   --line-height-none: 1;
-
   --margin-mt-1-5: 0.375rem;
   --margin-mt-4: 1rem;
-
   --max-width-0: 0;
   --max-width-xs: 20rem;
   --max-width-screen-xs: 21.25rem;
@@ -186,7 +150,6 @@
   --max-width-5xl: 64rem;
   --max-width-6xl: 72rem;
   --max-width-7xl: 80rem;
-
   --min-width-0: 0;
   --min-width-1: 0.25rem;
   --min-width-2: 0.5rem;
@@ -217,7 +180,6 @@
   --min-width-72: 18rem;
   --min-width-80: 20rem;
   --min-width-96: 24rem;
-
   --screens-xs: 25rem;
   --screens-sm: 40rem;
   --screens-md: 48rem;
@@ -225,14 +187,12 @@
   --screens-xl: 80rem;
   --screens-2xl: 96rem;
   --screens-3xl: 120rem;
-
   --skew-0: 0deg;
   --skew-1: 1deg;
   --skew-2: 2deg;
   --skew-3: 3deg;
   --skew-6: 6deg;
   --skew-12: 12deg;
-
   --spacing-0: 0;
   --spacing-1: 0.25rem;
   --spacing-2: 0.5rem;
@@ -268,7 +228,6 @@
   --spacing-1-5: 0.375rem;
   --spacing-2-5: 0.625rem;
   --spacing-3-5: 0.875rem;
-
   --width-0: 0;
   --width-1: 0.25rem;
   --width-2: 0.5rem;
@@ -304,6 +263,5 @@
   --width-2-5: 0.625rem;
   --width-3-5: 0.875rem;
   --width-px: 0.0625rem;
-
-  --radius: var(--border-radius-default, 1.5rem);
+  --radius: var(--border-radius-default, 0.25rem);
 }
