@@ -28,7 +28,7 @@
   --color-background: hsl(0, 0%, 100%);
   --color-foreground: hsl(210, 15%, 15%); /* dark neutral body text */
 
-  --color-card: hsl(0, 0%, 100%);          /* cards are white on site */
+  --color-card: hsl(0, 0%, 100%); /* cards are white on site */
   --color-card-foreground: hsl(210, 15%, 15%);
 
   --color-popover: hsl(0, 0%, 100%);
@@ -49,7 +49,7 @@
   --color-muted-foreground: hsl(0, 0%, 55%);
 
   /* Ziply blue  #016DE3 used as accent and links */
-  --color-accent: #016DE3;
+  --color-accent: #016de3;
   --color-accent-foreground: hsl(0, 0%, 100%);
 
   --color-destructive: hsl(0, 72%, 51%);
@@ -59,7 +59,7 @@
   /* Borders and inputs are light and unobtrusive */
   --color-border: hsl(0, 0%, 85%);
   --color-input: hsl(0, 0%, 85%);
-  --color-ring: #016DE3; /* focus ring in Ziply blue */
+  --color-ring: #016de3; /* focus ring in Ziply blue */
 
   /* Tertiary surfaces, often soft green-tinted backgrounds */
   --color-tertiary: hsl(120, 40%, 96%); /* very pale green */
